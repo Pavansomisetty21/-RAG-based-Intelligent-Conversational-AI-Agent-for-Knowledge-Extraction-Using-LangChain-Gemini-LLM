@@ -34,6 +34,8 @@ This project provides an AI-based conversational assistant that leverages Retrie
 
 ### 4. **Embeddings Generation**
    - The chunked text is converted into numerical embeddings using `SpacyEmbeddings`. These embeddings represent the semantic meaning of the chunks, enabling efficient search.
+     
+![Image of embeddings](https://github.com/Pavansomisetty21/RAG-based-Intelligent-Conversational-AI-Agent-for-Knowledge-Extraction-Using-LangChain-Gemini-LLM/blob/main/Images/embedding.jpg)
 
 ### 5. **Vector Store with Chroma**
    - A vector database is created using the `Chroma` library, where the embeddings are stored. The vector database allows fast and efficient retrieval of relevant information based on user queries.
@@ -51,6 +53,8 @@ This project provides an AI-based conversational assistant that leverages Retrie
    - The features an expandable section where users can view the conversation history. This transparency allows users to revisit past queries and responses, fostering a better understanding of the context and flow of the interaction.
 
 
+## RAG Flow in the process 
+![rag flow diagram](https://github.com/Pavansomisetty21/RAG-based-Intelligent-Conversational-AI-Agent-for-Knowledge-Extraction-Using-LangChain-Gemini-LLM/blob/main/Images/RAG.jpg)
 
 ## **Importance**
 
