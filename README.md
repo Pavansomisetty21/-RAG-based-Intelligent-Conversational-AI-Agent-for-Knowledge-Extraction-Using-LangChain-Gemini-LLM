@@ -19,6 +19,10 @@
 
 </div>
 
+
+
+Retrieval-Augmented Generation (RAG) is a framework that combines information retrieval with generative AI. It allows models to retrieve relevant information from external sources or databases and use that data to generate more accurate and contextually relevant responses. By leveraging both retrieval and generation, RAG improves the accuracy and reliability of AI models, particularly in providing up-to-date information or handling complex questions.
+
 ## **Workflow**
 
 This project provides an AI-based conversational assistant that leverages Retrieval-Augmented Generation (RAG) to extract knowledge from PDF documents. The system combines text embeddings, vector search, and an LLM to provide answers to user questions. Below is a detailed step-by-step workflow of how the application operates:
