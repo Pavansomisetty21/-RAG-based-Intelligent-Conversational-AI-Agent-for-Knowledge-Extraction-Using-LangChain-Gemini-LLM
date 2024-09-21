@@ -32,10 +32,14 @@ This project provides an AI-based conversational assistant that leverages Retrie
    - The `ConversationalRetrievalChain` is established using `LangChain`, combining the embeddings stored in Chroma with a conversational memory buffer to track chat history and context.
 
 ### 7. **LLM Interaction**
-   - The application integrates the `ChatGoogleGenerativeAI` (Google's Gemini LLM) to generate relevant and intelligent responses to the user's questions based on the retrieved chunks of text from the vector store.
+   - The Notebook integrates the `ChatGoogleGenerativeAI` (Google's Gemini LLM) to generate relevant and intelligent responses to the user's questions based on the retrieved chunks of text from the vector store.
 
 ### 8. **User Query and AI Response**
    - Users can input their questions about the uploaded PDF document, and the system responds by retrieving the most relevant chunks from the vector store and generating an answer using the LLM. The conversation history is preserved for context.
+
+### 9. **Display of Conversation History**
+   - The features an expandable section where users can view the conversation history. This transparency allows users to revisit past queries and responses, fostering a better understanding of the context and flow of the interaction.
+
 
 
 ## **Importance**
