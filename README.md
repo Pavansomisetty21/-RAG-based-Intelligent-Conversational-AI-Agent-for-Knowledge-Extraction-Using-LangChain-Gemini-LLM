@@ -28,7 +28,7 @@ Retrieval-Augmented Generation (RAG) is a framework that combines information re
 This project provides an AI-based conversational assistant that leverages Retrieval-Augmented Generation (RAG) to extract knowledge from PDF documents. The system combines text embeddings, vector search, and an LLM to provide answers to user questions. Below is a detailed step-by-step workflow of how the application operates:
 
 ### 1. **Uploading the PDF Document**
-   - Users upload a PDF file through the Streamlit interface. The uploaded file is processed to extract the text using `pdfplumber`, a Python library for extracting text from PDFs.
+   - Users upload a PDF file through the path mentioning on notebook. The uploaded file is processed to extract the text using `pdfplumber`, a Python library for extracting text from PDFs.
    
 ### 2. **Text Extraction**
    - The Notebook utilizes the `pdfplumber` library to extract raw text from the uploaded PDF. Each page of the document is parsed, and the resulting text is prepared for further processing.
