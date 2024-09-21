@@ -31,7 +31,7 @@ This project provides an AI-based conversational assistant that leverages Retrie
    - Users upload a PDF file through the Streamlit interface. The uploaded file is processed to extract the text using `pdfplumber`, a Python library for extracting text from PDFs.
    
 ### 2. **Text Extraction**
-   - The app utilizes the `pdfplumber` library to extract raw text from the uploaded PDF. Each page of the document is parsed, and the resulting text is prepared for further processing.
+   - The Notebook utilizes the `pdfplumber` library to extract raw text from the uploaded PDF. Each page of the document is parsed, and the resulting text is prepared for further processing.
 
 ### 3. **Text Chunking**
    - The extracted text is split into smaller chunks using `RecursiveCharacterTextSplitter`. This ensures the content is manageable for embeddings and retrieval, typically with a chunk size of 500 characters and an overlap of 50 characters.
